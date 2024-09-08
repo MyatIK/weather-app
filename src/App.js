@@ -43,10 +43,10 @@ function App() {
       <div className="space"></div>
       <div className="contentArea">
         <div className="row">
-          <div className="col">
+          <div className="col-12 col-sm-6">
           <h1 id="cityName" style={{color: "white"}}>{city}</h1>
           </div>
-          <div className="col">
+          <div className="col-12 col-sm-6">
             <p id="condition" style={{color: "white"}}>{info.description}</p>
           </div>
         </div>
@@ -58,7 +58,7 @@ function App() {
         
         <div className="container">
           <div className="row">
-            <div className="col card">
+            <div className="col-12 col-sm-3 card">
                 <div className="card-body">
                   <h5 className="card-title">Feels Like</h5>
                   <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-thermometer-half" viewBox="0 0 16 16">
@@ -69,7 +69,7 @@ function App() {
                   <p id="humidity" className="card-text">{info.feelsLike} ℃</p>
                 </div>
             </div>
-            <div className="col card">
+            <div className="col-12 col-sm-3 card">
               <div className="card-body">
                 <h5 className='card-title'>Visibility</h5>
                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
@@ -80,7 +80,7 @@ function App() {
               </div>
         
             </div>
-            <div className="col card">
+            <div className="col-12 col-sm-3 card">
               <div className="card-body">
                 <h5 className="card-title">Humidity</h5>
                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-moisture" viewBox="0 0 16 16">
@@ -89,7 +89,7 @@ function App() {
                 <p id="humidity" className="card-text">{info.humidity}</p>
               </div>
             </div>
-            <div className="col card">
+            <div className="col-12 col-sm-3  card">
               <div className="card-body">
                 <h5 className="card-title">Wind Speed</h5>
                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" className="bi bi-wind" viewBox="0 0 16 16">
